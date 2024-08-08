@@ -1,74 +1,81 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <title>Elsie Liu's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Grey+Qo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Elsie</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+
 <body>
-    <header>
-        <h1 class="intro" id="name">Elsie Liu</h1>
-        <h2 class="intro" id="intro_detail">I am a Software Developement Engineer. 
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-             praesentium voluptatum deleniti atque corrupti quos dolores et quas
-              molestias excepturi sint occaecati cupiditate non provident, 
-              similique sunt in culpa qui officia deserunt mollitia animi, 
-              id est laborum et dolorum fuga. Et harum quidem rerum facilis 
-              est et expedita distinctio. Nam libero tempore, cum soluta nobis est 
-              eligendi optio cumque nihil impedit quo minus id quod maxime placeat
-               facere possimus, omnis voluptas assumenda est, omnis dolor 
-               repellendus. Temporibus autem quibusdam et aut officiis debitis 
-               aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae
-                sint et molestiae non recusandae. Itaque earum rerum hic tenetur 
-                a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
-            consequatur aut perferendis doloribus asperiores repellat.</h2>
-        <hr />
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./public/about.html">About Me</a></li>
-                <li><a href="./public/contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2 id="projects">Projects</h2>
-            <article>
-                <h3 class="project_title">
-                    <a href="./public/movie-ranking.html">Project 1</a>
-                </h3>
-                <img src="./assets/images/movie-ranking.png" alt="Project 1 Preview" height="200">
-            </article>
-            <article>
-                <h3 class="project_title">
-                    <a href="./public/birthday-invite.html">Project 2</a>
-                </h3>
-                <a href="./public/birthday-invite.html">
-                    <img src="./assets/images/birthday-invite.png" alt="Project 2 Preview" height="200">
-                </a>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
+  <div class="top-container">
+    <img class="top-cloud" src="assets/images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Elsie.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class="bottom-cloud" src="assets/images/cloud.png" alt="cloud">
+    <img class="mountain" src="assets/images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="assets/images/elsie.jpg" alt="elsie-profile-img" width="200">
+      <h2>Hello.</h2>
+      <p class="intro">I am a fullstack Software Engineer. </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://media.giphy.com/media/xT9IgHq4eDQKKCHqAo/giphy.gif?cid=790b76119h511z3qjdq0tdow6qakkq5zlft4zd3m5xhj76b7&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="code-img">
+
+        <h3>Design & Development</h3>
+        <p>I started learning to code two years ago. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="dogcat-img" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDV4ejVqOTg5bXE0a2NrNm9iY2NqZzI1dHBsYWlyYzVmbjU4djRpaSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/RrJIDYd5wPRKYs7vW2/giphy.gif" alt="dogcat-img">
+
+        <h3>Great caregiver of Dogs and Cats</h3>
+        <p>But my best skill is actually in taking care of fur babies. I am mom of three fur babies.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>My Projects.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="https://media.giphy.com/media/xT9IgHq4eDQKKCHqAo/giphy.gif?cid=790b76119h511z3qjdq0tdow6qakkq5zlft4zd3m5xhj76b7&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="code-img">
+  
+          <h3>Quiz Builder</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+        </div>
+        <div class="skill-row">
+          <img class="dogcat-img" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDV4ejVqOTg5bXE0a2NrNm9iY2NqZzI1dHBsYWlyYzVmbjU4djRpaSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/RrJIDYd5wPRKYs7vW2/giphy.gif" alt="dogcat-img">
+  
+          <h3>Mobilia Consulting Website</h3>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+  
+        </div>
+      </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love fur babies as much as I do.</h3>
+      <p class="contact-message">Let's talk about how awesome they are! We can code with company of my cats!</p>
+      <a class="btn" href="mailto:elsielclc@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/elsieliuliu/">LinkedIn</a>
+    <p class="copyright">© 2024 ElsieLiu</p>
+  </div>
+</body>
 
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+</html>
