@@ -1,0 +1,31 @@
+html {
+    font-size: 16px
+}
+
+body {
+    background-color: #F5EDED;
+}
+.project_title {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: green;
+    margin-bottom: 1rem;
+}
+.intro {
+    color: #6482AD;  
+}
+
+main {
+    background-color: #E2DAD6;
+}
+
+#projects {
+    font-size: 1rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #7FA1C3;
+    color: white;
+}
+
+/* color palete: https://colorhunt.co/palette/6482ad7fa1c3e2dad6f5eded */
